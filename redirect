@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Form</title>
+</head>
+<body>
+
+    <iframe src="https://calendly.com/spearheadnick" width="100%" height="800px" frameborder="0"></iframe>
+
+    <script>
+        window.addEventListener("message", function(event) {
+            if (event.data && event.data.includes("submit")) {
+                window.location.href = "https://calendly.com/yourbookinglink";
+            }
+        });
+    </script>
+
+</body>
+</html>
